@@ -1,0 +1,20 @@
+{
+  "name": "randomwinner",
+  "version": "0.1.0",
+  "description": "Get random winner from a file.",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/app.ts"
+  },
+  "keywords": [
+    "winner",
+    "random",
+    "script"
+  ],
+  "author": "f0xb17",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
