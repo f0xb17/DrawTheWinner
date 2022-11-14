@@ -3,7 +3,7 @@ import { GetWinners } from "./getwinner";
 const date = new Date();
 
 try {
-    const read = new GetWinners("./src/test.txt")
+    const read = new GetWinners("./src/participants.txt")
 
     read.createParticipantsArray()
 
